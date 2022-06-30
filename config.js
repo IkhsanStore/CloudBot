@@ -4,17 +4,17 @@ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
-global.donasi = process.env.DONASI
+global . donasi  =  proses . lingkungan _ DONASI
 global.thumbmenu = process.env.THUMB_MENU
-global.sig = process.env.LINK_IG=https://instagram.com/ikhsan_sstore
-global.sgh = process.env.LINK_GITHUB=https://IkhsanStore
+global . sig   =   proses . lingkungan  _  LINK_IG  
+global . sgh    =    proses . lingkungan   _   LINK_GITHUB   =   https : //IkhsanStore
 global.sgc = process.env.LINK_GROUP=https://chat.whatsapp.com/IduqgsNjuDZKhdDdmDsc7P
-global.ownernumber = process.env.NOWNER
+global . nomor    pemilik     =     proses . lingkungan    _    PEMILIK
 global.owner = [
   ['6285767669919'],
   ['6285767669919'],
   [`${process.env.NOWNER}`, `${process.env.NAMAOWNER}`, true]
-  // [number, dia creator/owner?, dia developer?]
+  // [nomor, dia pencipta/pemilik?, dia pengembang?]
 ] // Put your number here
 global.mods = [`${process.env.MODERATOR}`] // Want some help?
 global.prems = [] // Premium user has unlimited limit
