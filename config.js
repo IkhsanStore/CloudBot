@@ -6,13 +6,13 @@ import { fileURLToPath } from 'url'
 
 global.donasi = process.env.DONASI
 global.thumbmenu = process.env.THUMB_MENU
-global.sig = process.env.LINK_IG
-global.sgh = process.env.LINK_GITHUB
-global.sgc = process.env.LINK_GROUP
+global.sig = process.env.LINK_IG=https://instagram.com/ikhsan_sstore?igshid=YmMyMTA2M2Y=
+global.sgh = process.env.LINK_GITHUB=https://IkhsanStore
+global.sgc = process.env.LINK_GROUP=https://chat.whatsapp.com/IduqgsNjuDZKhdDdmDsc7P
 global.ownernumber = process.env.NOWNER
 global.owner = [
-  ['0'],
-  ['0'],
+  ['6285767669919'],
+  ['6285767669919'],
   [`${process.env.NOWNER}`, `${process.env.NAMAOWNER}`, true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
